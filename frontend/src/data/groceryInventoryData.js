@@ -1,4 +1,4 @@
-// Reuse the same categories and units from product data
+// Reuse the same categories and units 
 const productCategories = {
   FRUITS: "Fruits",
   VEGETABLES: "Vegetables",

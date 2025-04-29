@@ -1,4 +1,4 @@
-// Reuse the same categories and units from product data
+// Reuse the same categories and units 
 const productCategories = {
   FRUITS: "Fruits",
   VEGETABLES: "Vegetables",
@@ -29,7 +29,7 @@ const productQuantityUnits = {
   BAG: "Bag",
 };
 
-// Inventory data array
+// Inventory data array 
 const groceryInventory = [
   {
     inventoryItemId: "INV001",

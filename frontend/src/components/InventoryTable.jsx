@@ -1,4 +1,4 @@
-// components/InventoryTable.jsx
+
 import { useState, useEffect, useMemo, useCallback } from "react";
 import { toast } from "react-toastify";
 import PropTypes from "prop-types";
@@ -33,7 +33,7 @@ const InventoryTable = ({
   useEffect(() => {
     let result = [...inventory];
 
-    // Apply search filter
+    // Apply search filter for grocery inventory
     if (searchTerm) {
       const term = searchTerm.toLowerCase();
       result = result.filter(
