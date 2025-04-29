@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { toast } from "react-toastify";
-
+//implement shopping list
 const ShoppingList = ({ items, setItems }) => {
   const [checkedItems, setCheckedItems] = useState([]);
 
@@ -20,11 +20,11 @@ const ShoppingList = ({ items, setItems }) => {
     setCheckedItems([]);
     toast.success("Selected items removed from shopping list");
   };
-
+//handle Remove all
   const handleRemoveAll = () => {
     setItems([]);
     setCheckedItems([]);
-    toast.success("All items removed from shopping list");
+    toast.success("All items removed from the shopping list");
   };
 
   return (
