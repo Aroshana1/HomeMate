@@ -26,7 +26,7 @@ export const generateRecipe = async (req, res) => {
       )
       .join(", ");
 
-    // Improved prompt
+    // Generate recipes
     const prompt = `Create a detailed ${mealCategory} recipe for ${servings} people using:
 Ingredients: ${ingredientsList}
 Preferences: ${preferences || "none"}
